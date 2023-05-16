@@ -16,12 +16,3 @@ Later..
 
 Lessons Learned:
 At this point, i'm studying the methods to search for books
-
-Examples:
-Take a look at these couple examples that I have in my own portfolio:
-
-Palettable: https://github.com/alecortega/palettable
-
-Twitter Battle: https://github.com/alecortega/twitter-battle
-
-Patch Panel: https://github.com/alecortega/patch-panel
