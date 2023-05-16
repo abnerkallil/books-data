@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Bookshelf's">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="author" content="Abner Kallil">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/normalize.css">
+    </head>
+    <body>
+        <section class="main-page">
+           
+            <nav class="navbar navbar-expand-lg ">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">BookShelf</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Library</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Add</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link">Find</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+              <section class="container-fluid">
+              <section class="my-books-sec">
+                <section class="title-my-books">
+                    <h1>My Books</h1>
+                </section>
+                <section class="books-list">
+                    <ul>
+                        <li class="li-book"><div class="book">
+                            <img src="img/harry-potter-cover-book.jpg">
+                        </div></li>
+                        <li class="li-book"><div class="book">
+                            <img src="img/harry-potter-cover-book.jpg">
+                        </div></li>
+                        <li class="li-book"><div class="book">
+                            <img src="img/harry-potter-cover-book.jpg">
+                        </div></li>
+                        <li class="li-book"><div class="book">
+                            <img src="img/harry-potter-cover-book.jpg">
+                        </div></li>
+                    </ul>
+                </section>
+              </section>
+              <section class="add-books-sec">
+                <section class="title-add-books">
+                    <h2>Add a Book</h2>
+                </section>
+                <section class="form-add-books">
+                    <form>
+                       
+                          <div class="mb-3">
+                            <label for="field1" class="form-label">Title</label>
+                            <input type="text" class="form-control" id="field1" placeholder="Harry Potter...">
+                          </div>
+                          <div class="mb-3">
+                            <label for="field2" class="form-label">Author</label>
+                            <input type="text" class="form-control" id="field2" placeholder="J.K Rowling">
+                          </div>
+                          <div class="mb-3">
+                            <label for="field3" class="form-label">Gender</label>
+                            <input type="text" class="form-control" id="field3" placeholder="Action">
+                          </div>
+                          <div class="mb-3">
+                            <label for="field4" class="form-label">Notes</label>
+                            <input type="text" class="form-control" id="field4" placeholder="A very classic book..">
+                          </div>
+                          <div class="mb-3">
+                            <label for="image" class="form-label">Upload Cover</label>
+                            <input type="file" class="form-control-file" id="image">
+                          </div>
+                         
+                          <button type="submit" class="btn btn-primary">Add Book</button>
+                        
+                      </form>
+                </section>
+              </section>
+              <section class="find-books-sec">
+                <section class="title-find-books">
+                    <h2>Find Book</h2>
+                </section>
+                <section class="find-books-search">
+                    
+                   
+                </section>
+                <section class="find-books-readings">
+                    <section class="find-books-label-title">
+                        <h3>Your Readings</h3>
+                    </section>
+                    <section class="books-list">
+                        <ul>
+                            <li class="li-book"><div class="book">
+                                <img src="img/harry-potter-cover-book.jpg">
+                            </div></li>
+                            <li class="li-book"><div class="book">
+                                <img src="img/harry-potter-cover-book.jpg">
+                            </div></li>
+                            <li class="li-book"><div class="book">
+                                <img src="img/harry-potter-cover-book.jpg">
+                            </div></li>
+                            <li class="li-book"><div class="book">
+                                <img src="img/harry-potter-cover-book.jpg">
+                            </div></li>
+                        </ul>
+                    </section>
+                    
+                </section>
+                <section class="find-books-genders">
+                    <section class="find-books-label-title">
+                        <h3>Gender</h3>
+                    </section>
+                    <section class="books-list">
+                        <ul>
+                            <li class="li-book"><div class="book">
+                                <img src="img/harry-potter-cover-book.jpg">
+                            </div></li>
+                            <li class="li-book"><div class="book">
+                                <img src="img/harry-potter-cover-book.jpg">
+                            </div></li>
+                            <li class="li-book"><div class="book">
+                                <img src="img/harry-potter-cover-book.jpg">
+                            </div></li>
+                            <li class="li-book"><div class="book">
+                                <img src="img/harry-potter-cover-book.jpg">
+                            </div></li>
+                        </ul>
+                    </section>
+                </section>
+                <section class="find-books-authors">
+                    <section class="find-books-label-title">
+                        <h3>Authors</h3>
+                    </section>
+                    <section class="books-list">
+                        <ul>
+                            <li class="li-book"><div class="book">
+                                <img src="img/harry-potter-cover-book.jpg">
+                            </div></li>
+                            <li class="li-book"><div class="book">
+                                <img src="img/harry-potter-cover-book.jpg">
+                            </div></li>
+                            <li class="li-book"><div class="book">
+                                <img src="img/harry-potter-cover-book.jpg">
+                            </div></li>
+                            <li class="li-book"><div class="book">
+                                <img src="img/harry-potter-cover-book.jpg">
+                            </div></li>
+                        </ul>
+                    </section>
+                </section>
+                <section class="find-books-finished">
+                    <section class="find-books-label-title">
+                        <h3>Finished</h3>
+                    </section>
+                    <section class="books-list">
+                        <ul>
+                            <li class="li-book"><div class="book">
+                                <img src="img/harry-potter-cover-book.jpg">
+                            </div></li>
+                            <li class="li-book"><div class="book">
+                                <img src="img/harry-potter-cover-book.jpg">
+                            </div></li>
+                            <li class="li-book"><div class="book">
+                                <img src="img/harry-potter-cover-book.jpg">
+                            </div></li>
+                            <li class="li-book"><div class="book">
+                                <img src="img/harry-potter-cover-book.jpg">
+                            </div></li>
+                        </ul>
+                    </section>
+                </section>
+              </section>
+            </section>
+        </section>
+    </body>
+</html>
